@@ -11,8 +11,20 @@ $(document).ready(function(){
     event.preventDefault();
 
     $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
+        scrollTop: $( $.attr(this, 'href') ).offset().top -34
     }, 1000);
+  });
+
+  $(window).scroll(function(){
+  var sticky = $('.menu'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= ($('main').position().top - 44)) {
+    sticky.addClass('fixed');
+  } else {
+    sticky.removeClass('fixed');
+
+  }
 });
 
 });

@@ -8,35 +8,41 @@
   <title>Daniele Peviani</title>
 </head>
 <body>
-  <header class="main-header">
-    <div class="wrapper">
+  <header id="top" class="main-header">
       <nav>
-        <div class="logo"><h1>Daniele Peviani</h1></div>
-        <div class="menu">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+        <div class="nav-wrapper">
+          <div class="logo"><h1>Daniele Peviani</h1></div>
+          <div class="menu">
+            <div class="top"><a href="#top">Top</a></div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
         </div>
       </nav>
 
       <section class="intro">
-        <img src="images/intro.svg" alt="web developer image">
-        <h1>Hi, I’m Daniele Peviani you can call me Dan :)</h1>
-        <p>I’m a front-end developer based in Sydney with a passion for technology and design</p>
-        <a href="#contact" class="main-btn">Get in touch</a>
+        <div class="wrapper">
+          <img src="images/intro.svg" alt="web developer image">
+          <div class="intro-msg">
+            <h1>Hi, I’m Daniele Peviani <br/> you can call me Dan :)</h1>
+            <p>I’m a front-end developer based in Sydney with a passion for technology and design</p>
+            <a href="#contact" class="main-btn">Get in touch</a>
+          </div>
+        </div>
       </section>
-    </div>
+
   </header>
 
-  <main>
-    <section id="about" class="about-me">
+  <main id="about">
+    <section class="about-me">
       <h1>About me</h1>
       <div class="wrapper">
         <div class="box">
           <h2>A little background</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis beatae, consequatur repudiandae non sapiente architecto explicabo repellat quam? Error in nesciunt ducimus sit iusto possimus, aut dolore, distinctio quod cumque!</p>
         </div>
-        <div class="box">
+        <div class="box sydney">
           <img src="images/sydney.svg" alt="image of sydney">
         </div>
         <div class="box">
@@ -57,32 +63,56 @@
       <div class="wrapper">
         <div class="slider">
           <div class="box">
-            <h2>Tic Tac Toe</h2>
-            <img src="images/tic-tae-toe.png" alt="tic tac toe image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita consectetur, quae cum ipsam asperiores ducimus nisi recusandae enim eveniet hic doloribus itaque saepe cupiditate assumenda a odit iusto dolorum culpa!</p>
-            <a href="" class="projects-btn">Github Repo</a>
-            <a href="" class="projects-btn">Live Demo</a>
+            <div class="project-logo">
+              <h2>Tic Tac Toe</h2>
+            </div>
+            <div class="project-img">
+              <img src="images/tic-tae-toe.png" alt="tic tac toe image">
+            </div>
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita consectetur, quae cum ipsam asperiores ducimus nisi recusandae enim eveniet hic doloribus itaque saepe cupiditate assumenda a odit iusto dolorum culpa!</p>
+              <a href="" class="projects-btn">Github Repo</a>
+              <a href="" class="projects-btn">Live Demo</a>
+            </div>
           </div>
           <div class="box">
-            <img src="images/meetuthere-logo.png" alt="meet you there logo" class="projects-logo">
-            <img src="images/meetuthere.png" alt="meet you there image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita consectetur, quae cum ipsam asperiores ducimus nisi recusandae enim eveniet hic doloribus itaque saepe cupiditate assumenda a odit iusto dolorum culpa!</p>
-            <a href="" class="projects-btn">Github Repo</a>
-            <a href="" class="projects-btn">Live Demo</a>
+            <div class="project-logo">
+              <img src="images/meetuthere-logo.svg" alt="meet you there logo">
+            </div>
+            <div class="project-img">
+              <img src="images/meetuthere.png" alt="meet you there image">
+            </div>
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita consectetur, quae cum ipsam asperiores ducimus nisi recusandae enim eveniet hic doloribus itaque saepe cupiditate assumenda a odit iusto dolorum culpa!</p>
+              <a href="" class="projects-btn">Github Repo</a>
+              <a href="" class="projects-btn">Live Demo</a>
+            </div>
           </div>
           <div class="box">
-            <img src="images/ga-library-logo.png" alt="ga library logo" class="projects-logo">
-            <img src="images/ga-library.png" alt="ga library image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita consectetur, quae cum ipsam asperiores ducimus nisi recusandae enim eveniet hic doloribus itaque saepe cupiditate assumenda a odit iusto dolorum culpa!</p>
-            <a href="" class="projects-btn">Github Repo</a>
-            <a href="" class="projects-btn">Live Demo</a>
+            <div class="project-logo">
+              <img src="images/ga-library-logo.svg" alt="ga library logo">
+            </div>
+            <div class="project-img">
+              <img src="images/ga-library.png" alt="ga library image">
+            </div>
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita consectetur, quae cum ipsam asperiores ducimus nisi recusandae enim eveniet hic doloribus itaque saepe cupiditate assumenda a odit iusto dolorum culpa!</p>
+              <a href="" class="projects-btn">Github Repo</a>
+              <a href="" class="projects-btn">Live Demo</a>
+            </div>
           </div>
           <div class="box">
-            <img src="images/avantis-logo.png" alt="avantis logo" class="projects-logo">
-            <img src="images/avantis.png" alt="avantis image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita consectetur, quae cum ipsam asperiores ducimus nisi recusandae enim eveniet hic doloribus itaque saepe cupiditate assumenda a odit iusto dolorum culpa!</p>
-            <a href="" class="projects-btn">Github Repo</a>
-            <a href="" class="projects-btn">Live Demo</a>
+            <div class="project-logo">
+              <img src="images/avantis-logo.svg" alt="avantis logo">
+            </div>
+            <div class="project-img">
+              <img src="images/avantis.png" alt="avantis image">
+            </div>
+            <div class="project-details">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita consectetur, quae cum ipsam asperiores ducimus nisi recusandae enim eveniet hic doloribus itaque saepe cupiditate assumenda a odit iusto dolorum culpa!</p>
+              <a href="" class="projects-btn">Github Repo</a>
+              <a href="" class="projects-btn">Live Demo</a>
+            </div>
           </div>
         </div>
       </div>
