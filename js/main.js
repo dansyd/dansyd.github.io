@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
   $('.slider').slick({
-    centerPadding: '40px'
+    centerPadding: '40px',
+    adaptiveHeight: true
   });
 
   var copy = 'craftly designed and coded with love by Daniele Peviani &copy; ' + new Date().getFullYear();
